@@ -1,0 +1,29 @@
+{
+    "name": "mh6",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "BitBot": "github:4tronix/bitbot#v2.1.13",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.2.4",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "pxt-cutebotpro": "github:elecfreaks/pxt-cutebot-pro#v2.1.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
